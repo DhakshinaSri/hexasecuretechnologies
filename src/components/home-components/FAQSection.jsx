@@ -62,7 +62,7 @@ export default function FAQSection() {
         {/* Left Column Header Info */}
         <div className="lg:col-span-4 lg:sticky lg:top-24">
           <div className="flex items-center gap-3 mb-6">
-            <span className="h-[2px] w-12 bg-[#334EAC]"></span>
+            <span className="h-0.5 w-12 bg-[#334EAC]"></span>
             <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">FAQ</p>
           </div>
           <h2 className="text-4xl md:text-5xl font-black tracking-tight text-[#081F5C] leading-none mb-6">
@@ -96,12 +96,12 @@ export default function FAQSection() {
                   </div>
                   
                   {/* Dynamic Custom Rotating Cross-to-Minus Indicator Icon */}
-                  <div className="relative w-5 h-5 flex items-center justify-center flex-shrink-0">
-                    <span className="absolute w-3 h-[2px] bg-[#334EAC] rounded-full" />
+                  <div className="relative w-5 h-5 flex items-center justify-center shrink-0">
+                    <span className="absolute w-3 h-0.5 bg-[#334EAC] rounded-full" />
                     <motion.span 
                       animate={{ rotate: isOpen ? 90 : 0, opacity: isOpen ? 0 : 1 }}
                       transition={{ duration: 0.25 }}
-                      className="absolute w-[2px] h-3 bg-[#334EAC] rounded-full"
+                      className="absolute w-0.5 h-3 bg-[#334EAC] rounded-full"
                     />
                   </div>
                 </button>

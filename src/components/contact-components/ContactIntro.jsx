@@ -20,7 +20,7 @@ export default function ContactIntro() {
           {/* Heading */}
           <h2 className="text-3xl font-black tracking-tight text-[#081F5C] leading-none mb-6">
             Ready to strengthen <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#334EAC] to-[#7096D1]">your cyber security posture?</span>
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#334EAC] to-[#7096D1]">your cyber security posture?</span>
           </h2>
 
           {/* Decorative Line */}

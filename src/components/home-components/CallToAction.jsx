@@ -36,7 +36,7 @@ export default function CallToAction() {
           className="text-4xl md:text-6xl font-black tracking-tight text-[#FFF9F0] leading-tight max-w-4xl mb-6"
         >
           Let’s Build a More Secure <br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#BAD6EB] to-[#7096D1]">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-[#BAD6EB] to-[#7096D1]">
             Digital Future Together
           </span>
         </motion.h2>

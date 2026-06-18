@@ -25,7 +25,7 @@ export default function TrainingSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start relative z-10">
         
         {/* Left Column: Contextual Core & Navigation Trigger */}
-        <div className="lg:col-span-5 lg:sticky lg:top-24 flex flex-col justify-between min-h-[380px]">
+        <div className="lg:col-span-5 lg:sticky lg:top-24 flex flex-col justify-between min-h-95">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -33,7 +33,7 @@ export default function TrainingSection() {
             variants={fadeInUp}
           >
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-[2px] w-12 bg-[#334EAC]"></span>
+              <span className="h-0.5 w-12 bg-[#334EAC]"></span>
               <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">SECURITY AWARENESS</p>
             </div>
             
@@ -82,7 +82,7 @@ export default function TrainingSection() {
                 backgroundColor: "#F7F2EB",
                 borderColor: "#334EAC" 
               }}
-              className="bg-white border border-[#081F5C]/10 p-6 rounded-2xl min-h-[100px] flex flex-col justify-between transition-colors duration-200 shadow-sm"
+              className="bg-white border border-[#081F5C]/10 p-6 rounded-2xl min-h-25 flex flex-col justify-between transition-colors duration-200 shadow-sm"
             >
               <div className="flex justify-between items-start">
                 <span className="text-[10px] font-mono tracking-wider font-bold text-[#334EAC] bg-[#FFF9F0] border border-[#BAD6EB]/60 px-2.5 py-0.5 rounded">

@@ -25,7 +25,7 @@ export default function TrainingPage() {
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-start relative z-10">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="lg:col-span-6">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-[2px] w-12 bg-[#334EAC]"></span>
+              <span className="h-0.5 w-12 bg-[#334EAC]"></span>
               <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">TRAINING & CERTIFICATIONS</p>
             </div>
             
@@ -174,7 +174,7 @@ export default function TrainingPage() {
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.02, x: 4 }}
-                className="bg-[#F7F2EB] border-l-4 border-[#334EAC] p-6 rounded-r-xl flex items-center justify-between shadow-sm min-h-[80px]"
+                className="bg-[#F7F2EB] border-l-4 border-[#334EAC] p-6 rounded-r-xl flex items-center justify-between shadow-sm min-h-20"
               >
                 <p className="text-base font-bold text-[#081F5C] pr-4">{wk.title}</p>
                 <span className="text-[10px] font-mono text-[#7096D1] font-bold block">{wk.code}</span>
@@ -227,7 +227,7 @@ export default function TrainingPage() {
       <section className="py-24 px-6 lg:px-16 xl:px-24 bg-white relative">
         <div className="max-w-7xl mx-auto">
           
-          <div className="w-full h-[1px] bg-[#081F5C]/10 mb-20" />
+          <div className="w-full h-1px bg-[#081F5C]/10 mb-20" />
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16 items-start">
             <div className="lg:col-span-4">

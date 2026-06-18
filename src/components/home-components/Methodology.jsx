@@ -27,7 +27,7 @@ export default function Methodology() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center relative z-10">
         
         {/* Left Column: Contextual Core & Navigation Trigger */}
-        <div className="lg:col-span-5 flex flex-col justify-between min-h-[380px]">
+        <div className="lg:col-span-5 flex flex-col justify-between min-h-95">
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -35,7 +35,7 @@ export default function Methodology() {
             variants={fadeInUp}
           >
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-[2px] w-12 bg-[#334EAC]"></span>
+              <span className="h-0.5 w-12 bg-[#334EAC]"></span>
               <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">OUR METHODOLOGY</p>
             </div>
             
@@ -80,7 +80,7 @@ export default function Methodology() {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.06 }}
               whileHover={{ y: -4 }}
-              className="bg-white border border-[#081F5C]/5 p-6 rounded-xl min-h-[100px] flex flex-col justify-between shadow-sm cursor-pointer relative group overflow-hidden"
+              className="bg-white border border-[#081F5C]/5 p-6 rounded-xl min-h-25 flex flex-col justify-between shadow-sm cursor-pointer relative group overflow-hidden"
             >
               
               <div>

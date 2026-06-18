@@ -35,7 +35,7 @@ export default function HeroSection() {
             className="lg:col-span-7 flex flex-col justify-center"
           >
             <motion.div variants={fadeInUp} className="flex items-center gap-3 mb-6">
-              <span className="h-[2px] w-12 bg-[#334EAC]"></span>
+              <span className="h-0.5 w-12 bg-[#334EAC]"></span>
               <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">
                 HEXA SECURE TECHNOLOGIES
               </p>
@@ -43,7 +43,7 @@ export default function HeroSection() {
 
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-[#081F5C] leading-none mb-4">
               Securing <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#334EAC] to-[#7096D1]">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-[#334EAC] to-[#7096D1]">
                 Digital Trust
               </span>
             </motion.h1>
@@ -67,14 +67,14 @@ export default function HeroSection() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
-            className="lg:col-span-5 relative flex flex-col justify-center items-center min-h-[450px] sm:min-h-[500px]"
+            className="lg:col-span-5 relative flex flex-col justify-center items-center min-h-112.5 sm:min-h-125"
           >
             {/* Interactive Kinetic Isometric/Layered Stack */}
-            <div className="relative w-full max-w-[360px] aspect-[4/5] flex flex-col justify-center items-center group">
+            <div className="relative w-full max-w-90 aspect-4/5 flex flex-col justify-center items-center group">
               
               {/* BACK LAYER - Core Deep Tech (Stays grounded, expands on group hover) */}
               <motion.div 
-                className="absolute w-full h-[140px] bg-[#081F5C] rounded-2xl p-6 border border-white/10 shadow-2xl flex flex-col justify-between"
+                className="absolute w-full h-35 bg-[#081F5C] rounded-2xl p-6 border border-white/10 shadow-2xl flex flex-col justify-between"
                 style={{ transform: "perspective(1000px) rotateX(25deg) rotateY(-15deg) translateY(60px) translateZ(-40px)" }}
                 animate={{ y: [50, 65, 50] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -89,7 +89,7 @@ export default function HeroSection() {
 
               {/* MIDDLE LAYER - Perimeter Analytics */}
               <motion.div 
-                className="absolute w-full h-[140px] bg-[#F7F2EB] rounded-2xl p-6 border border-[#334EAC]/10 shadow-xl flex flex-col justify-between"
+                className="absolute w-full h-35 bg-[#F7F2EB] rounded-2xl p-6 border border-[#334EAC]/10 shadow-xl flex flex-col justify-between"
                 style={{ transform: "perspective(1000px) rotateX(25deg) rotateY(-15deg) translateY(0px) translateZ(0px)" }}
                 animate={{ y: [-5, 5, -5] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
@@ -107,7 +107,7 @@ export default function HeroSection() {
 
               {/* FRONT LAYER - Pure Interactive Glassmorphic Terminal Card */}
               <motion.div 
-                className="absolute w-full h-[140px] bg-white/70 backdrop-blur-md rounded-2xl p-6 border border-[#BAD6EB] shadow-lg flex flex-col justify-between cursor-pointer"
+                className="absolute w-full h-35 bg-white/70 backdrop-blur-md rounded-2xl p-6 border border-[#BAD6EB] shadow-lg flex flex-col justify-between cursor-pointer"
                 style={{ transform: "perspective(1000px) rotateX(25deg) rotateY(-15deg) translateY(-60px) translateZ(40px)" }}
                 animate={{ y: [-60, -70, -60] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
@@ -149,7 +149,7 @@ export default function HeroSection() {
         <div className="max-w-7xl mx-auto">
           
           {/* Section Divider Line */}
-          <div className="w-full h-[1px] bg-[#081F5C]/10 mb-16" />
+          <div className="w-full h-1px bg-[#081F5C]/10 mb-16" />
 
           {/* Statement Split Layout */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
@@ -185,7 +185,7 @@ export default function HeroSection() {
             {/* Card 1 */}
             <motion.div 
               whileHover={{ y: -8 }}
-              className="bg-white p-8 rounded-3xl shadow-sm border border-[#081F5C]/5 flex flex-col justify-between min-h-[300px]"
+              className="bg-white p-8 rounded-3xl shadow-sm border border-[#081F5C]/5 flex flex-col justify-between min-h-75"
             >
               <div>
                 <h4 className="text-xl font-bold text-[#081F5C] mb-4">Cyber Resilience</h4>
@@ -198,7 +198,7 @@ export default function HeroSection() {
             {/* Card 2 */}
             <motion.div 
               whileHover={{ y: -8 }}
-              className="bg-[#081F5C] text-white p-8 rounded-3xl shadow-xl flex flex-col justify-between min-h-[300px] relative overflow-hidden"
+              className="bg-[#081F5C] text-white p-8 rounded-3xl shadow-xl flex flex-col justify-between min-h-75 relative overflow-hidden"
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#334EAC] rounded-bl-full opacity-20 pointer-events-none" />
               <div>
@@ -212,7 +212,7 @@ export default function HeroSection() {
             {/* Card 3 */}
             <motion.div 
               whileHover={{ y: -8 }}
-              className="bg-white p-8 rounded-3xl shadow-sm border border-[#081F5C]/5 flex flex-col justify-between min-h-[300px]"
+              className="bg-white p-8 rounded-3xl shadow-sm border border-[#081F5C]/5 flex flex-col justify-between min-h-75"
             >
               <div>
                 <h4 className="text-xl font-bold text-[#081F5C] mb-4">Scalable Strategy</h4>

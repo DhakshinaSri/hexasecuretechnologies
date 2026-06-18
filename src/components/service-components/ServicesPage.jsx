@@ -23,7 +23,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto w-full relative z-10">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="max-w-4xl">
             <motion.div variants={fadeInUp} className="flex items-center gap-3 mb-6">
-              <span className="h-[2px] w-12 bg-[#334EAC]"></span>
+              <span className="h-0.5 w-12 bg-[#334EAC]"></span>
               <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">OUR CORE SERVICES</p>
             </motion.div>
             
@@ -256,7 +256,7 @@ export default function ServicesPage() {
                   "HIPAA Security Standards",
                   "Information Security Governance"
                 ].map((item, idx) => (
-                  <div key={idx} className="bg-[#F7F2EB] p-4 rounded-xl border border-[#081F5C]/5 text-sm font-bold tracking-tight text-[#081F5C] text-center flex flex-col justify-center min-h-[80px]">
+                  <div key={idx} className="bg-[#F7F2EB] p-4 rounded-xl border border-[#081F5C]/5 text-sm font-bold tracking-tight text-[#081F5C] text-center flex flex-col justify-center min-h-20">
                     {item}
                   </div>
                 ))}

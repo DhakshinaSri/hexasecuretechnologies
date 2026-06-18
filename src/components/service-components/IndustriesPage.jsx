@@ -18,7 +18,7 @@ export default function IndustriesAndMethodologyPage() {
         <div className="max-w-7xl mx-auto relative z-10">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="max-w-4xl mb-12">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-[2px] w-12 bg-[#334EAC]"></span>
+              <span className="h-0.5 w-12 bg-[#334EAC]"></span>
               <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">INDUSTRIES WE SERVE</p>
             </div>
             <h1 className="text-4xl md:text-6xl font-black tracking-tight text-[#081F5C] leading-none">
@@ -51,7 +51,7 @@ export default function IndustriesAndMethodologyPage() {
                   borderColor: "#081F5C"
                 }}
                 transition={{ type: "spring", stiffness: 400, damping: 30 }}
-                className="bg-[#F7F2EB] border border-[#081F5C]/5 py-5 px-6 rounded-xl flex items-center justify-between shadow-sm cursor-pointer min-h-[72px]"
+                className="bg-[#F7F2EB] border border-[#081F5C]/5 py-5 px-6 rounded-xl flex items-center justify-between shadow-sm cursor-pointer min-h-18"
               >
                 <p className="text-base font-black tracking-tight pr-4 transition-colors duration-200">
                   {industry}
