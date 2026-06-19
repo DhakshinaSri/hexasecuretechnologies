@@ -77,7 +77,7 @@ export default function AboutPageContinued() {
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             variants={staggerContainer}
-            className="divide-y divide-[#081F5C]/10 border-t border-b divide-[#081F5C]/10 border-[#081F5C]/10"
+            className="divide-y divide-[#081F5C]/10 border-t border-b border-[#081F5C]/10"
           >
             {[
               { title: "Trust", desc: "We build lasting partnerships through transparency, accountability, and reliability." },

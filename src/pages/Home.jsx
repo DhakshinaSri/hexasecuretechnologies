@@ -6,7 +6,7 @@ import CallToAction from "@/components/home-components/CallToAction";
 
 export default function Home() {
   return (
-    <div className="pt-12">
+    <div className="pt-30 md:pt-15">
       <HeroSection />
       <ServiceIntro />
       <Methodology />

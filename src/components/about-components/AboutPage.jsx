@@ -35,7 +35,7 @@ export default function AboutPage() {
             className="lg:col-span-5 lg:sticky lg:top-24"
           >
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-[2px] w-8 bg-[#334EAC]"></span>
+              <span className="h-0.5 w-8 bg-[#334EAC]"></span>
               <p className="text-sm font-bold tracking-[0.3em] uppercase text-[#334EAC]">
                 ABOUT
               </p>
@@ -100,7 +100,7 @@ export default function AboutPage() {
       <section className="bg-[#F7F2EB] py-24 px-6 lg:px-16 xl:px-24 relative overflow-hidden">
         
         {/* Subtle geometric line overlay for architectural effect */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#081f5c05_1px,transparent_1px),linear-gradient(to_bottom,#081f5c05_1px,transparent_1px)] bg-[size:4rem_4rem]" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#081f5c05_1px,transparent_1px),linear-gradient(to_bottom,#081f5c05_1px,transparent_1px)] bg-size-[4rem_4rem]" />
 
         <div className="max-w-7xl mx-auto relative z-10">
           
@@ -140,7 +140,7 @@ export default function AboutPage() {
                     borderColor: "#081F5C"
                   }}
                   transition={{ type: "spring", stiffness: 400, damping: 30 }}
-                  className="bg-white border border-[#081F5C]/10 py-5 px-6 rounded-xl flex items-center justify-between shadow-sm cursor-pointer min-h-[72px]"
+                  className="bg-white border border-[#081F5C]/10 py-5 px-6 rounded-xl flex items-center justify-between shadow-sm cursor-pointer min-h-18"
                 >
                   <p className="text-base font-bold tracking-tight transition-colors duration-200 pr-4">
                     {sector}
